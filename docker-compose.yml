@@ -1,14 +1,10 @@
-version: '2.1'
+version: '3'
 
 volumes:
-  files:
-    driver: local
-  mysql:
-    driver: local
-  backup:
-    driver: local
-  redis:
-    driver: local
+  files: {}
+  mysql: {}
+  backup: {}
+  redis: {}
 
 services:
   owncloud:
